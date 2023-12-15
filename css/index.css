@@ -1,0 +1,77 @@
+.container {
+	width: 90%;
+	display: block;
+	margin: auto;
+}
+
+#greetings {
+	min-height: 100%;
+	background: #f5e6cc;
+	text-align: center;
+	padding: 10vw;
+}
+
+#eventos {
+	background: #ffb48f;
+	text-align: center;
+	padding: 10vw 0;
+}
+
+.evento {
+	margin: 5vw auto;
+	padding: 5vw;
+	width: 80%;
+	background: white;
+	-webkit-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.3);
+}
+
+.evento > img {
+	margin: 3vw 0;
+	max-width: 100%;
+}
+
+.evento > a {
+	display: block;
+	width: 100%;
+	line-height: 36px;
+	height: 36px;
+	background-color: #6a2f81;
+	color: white;
+	text-align: center;
+	border-radius: 6px;
+	cursor: pointer;
+}
+
+@media screen and (min-width: 480px) {
+	.container {
+		max-width: 1140px;
+		display: block;
+		margin: auto;
+	}
+
+	#greetings {
+		padding: 3vw;
+	}
+
+	#eventos {
+		padding: 2vw 0;
+	}
+
+	.lista-eventos {
+		display: flex;
+		justify-content: space-between;
+		margin: 1vw 0;
+	}
+
+	.evento {
+		width: 28%;
+		margin: 1vw auto;
+		padding: 1vw;
+	}
+
+	.evento > img {
+		margin: 1vw 0;
+	}
+}

@@ -1,0 +1,62 @@
+.container {
+	width: 90%;
+	display: block;
+	margin: auto;
+}
+
+#menu > a:link,
+a:visited {
+	color: white;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#menu > a:link:active,
+a:visited:active {
+	color: white;
+}
+
+#menu > a:hover {
+	color: #6a2f81;
+}
+
+header {
+	height: 50vw;
+	background: #a64ac9;
+	display: flex;
+}
+
+#logo {
+	display: flex;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+#menu {
+	display: flex;
+	justify-content: space-between;
+	padding: 8vw 2vw 0 2vw;
+	color: white;
+}
+
+@media screen and (min-width: 480px) {
+	.container {
+		max-width: 1140px;
+		display: block;
+		margin: auto;
+	}
+	header {
+		height: 10vw;
+	}
+	.header-container {
+		display: flex;
+		align-items: center;
+	}
+
+	#menu {
+		width: 80%;
+		align-items: stretch;
+		padding: 0;
+		padding-left: 10vw;
+	}
+}
